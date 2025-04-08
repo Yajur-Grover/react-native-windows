@@ -4,7 +4,7 @@
  * @format
  */
 import React from 'react';
-import {AppRegistry, View} from 'react-native';
+import {AppRegistry, Text, View} from 'react-native';
 
 export default class Bootstrap extends React.Component {
   render() {
@@ -14,6 +14,7 @@ export default class Bootstrap extends React.Component {
         accessibilityValue={{now: 10, min: 0, max: 20}}
         style={{borderRadius: 30, width: 60, height: 60, margin: 10}}>
         <View style={{backgroundColor: 'magenta', width: 60, height: 60}} />
+        <Text>Hello World</Text>
       </View>
     );
   }
